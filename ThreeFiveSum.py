@@ -6,4 +6,8 @@ def find35sum(x):
 		elif i % 5 == 0:
 			All_num.append(i)
 	total = sum(All_num)
-	print total
+	print (total)
+    
+
+
+find35sum(15)
