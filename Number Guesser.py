@@ -8,15 +8,15 @@ def guess_number():
   while not correct:
     Guess = input("Whats your guess? ")
     if Guess > 10:
-      print "thats not in the range dummy"
+      print "thats not in the range"
     elif Guess < 0:
-      print "thats not in the range dummy"
+      print "thats not in the range"
     elif Guess > Answer:
-      print "guess lower dummy"
+      print "guess lower"
     elif Guess < Answer:
-      print "guess higher dummy"
+      print "guess higher"
     elif Guess == Answer:
-      print "Congratulations you did it you idiot"
+      print "Congratulations you did it"
       correct = True
 
 guess_number()
